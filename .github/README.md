@@ -2,7 +2,7 @@
 
 <h4 align="center">OPXVIRMUSIC is A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ... Written With Python and Telethon...</h4>
 
-<p align="center"><a href="https://t.me/ITZVIR99"><img src="https://telegra.ph/file/a770c994ec7e9d5603af0.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/ITZVIR99"><img src="https://telegra.ph/file/fe49bae9ba7130d528de4.png" width="400"></a></p>
 
 <p align="center">
     <a href="https://app.codacy.com/manual/VIR99/OPXVIRMUSIC/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
